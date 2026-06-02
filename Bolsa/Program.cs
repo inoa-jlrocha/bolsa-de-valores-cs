@@ -1,1 +1,3 @@
-﻿Console.WriteLine("Hello, World!");
+﻿
+System.Console.WriteLine("=== INICIANDO SIMULADOR DE BOLSA .NET 10 ===");
+
