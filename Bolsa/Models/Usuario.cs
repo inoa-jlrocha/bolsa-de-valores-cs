@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace Bolsa.Models {
+    public class Usuario(string nome, decimal saldo) {
 
-namespace Bolsa.Models {
-    internal class Usuario {
+        public string Nome { get; set; } = nome;
+        public decimal Saldo { get; set; } = saldo;
     }
 }

@@ -1,5 +1,5 @@
 ﻿namespace Bolsa.Models {
-    internal class Ativo(string ticker, string nomeEmpresa, decimal precoInicial) {
+    public class Ativo(string ticker, string nomeEmpresa, decimal precoInicial) {
 
         // Propriedades do Ativo
         public string Ticker { get; set; } = ticker.ToUpper();
